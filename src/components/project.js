@@ -20,4 +20,6 @@ const Project = () => (
   />
 );
 
+// TODO: implement PropTypes for testing later
+
 export default Project;

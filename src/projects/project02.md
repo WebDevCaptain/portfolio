@@ -1,3 +1,8 @@
+---
+gitURL: 'https://github.com/momentmuse/shoppit_server'
+title: 'Shoppit'
+---
+
 # Shoppit
 
 ## Mobile Application

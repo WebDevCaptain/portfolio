@@ -1,13 +1,24 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
+// perhaps add an email form to directly email me from this page?
+// Name
+// Email
+// Subject
+// Body
+
 const ContactPage = () => (
   <Layout>
-    <h1>Contact</h1>
-    <p>This is where some fluff will go.</p>
-    <Link to="/">Go back to the homepage</Link>
+    <h1>Don't be a stranger</h1>
+    <p>
+      <em>Why not drop me a line?</em>
+    </p>
+    <ul>
+      <li>LinkedIn</li>
+      <li>Twitter</li>
+      <li>GitHub</li>
+    </ul>
   </Layout>
 );
 

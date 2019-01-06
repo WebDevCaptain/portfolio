@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Moment Muse`,
+    title: `Amy Kirasack`,
     description: `The portfolio website of Amy Kirasack.`,
     author: `@momentmuse`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

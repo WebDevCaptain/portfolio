@@ -4,17 +4,32 @@ import { StaticQuery, graphql } from 'gatsby';
 const Project = () => (
   <StaticQuery
     query={graphql`
-      {
-        site {
-          siteMetadata {
-            title
+      query AllProjectsQuery {
+        allMarkdownRemark {
+          edges {
+            node {
+              frontmatter {
+                gitURL
+                title
+                description
+              }
+            }
           }
         }
       }
     `}
-    render={data => (
+    render={({ allMarkdownRemark }) => (
       <>
-        <p>PROJECT {data.site.siteMetadata.title}</p>
+        {allMarkdownRemark.edges.map(edge => (
+          <div>
+            <h1>
+              <a href={edge.node.frontmatter.gitURL}>
+                {edge.node.frontmatter.title}
+              </a>
+            </h1>
+            <p>{edge.node.frontmatter.description}</p>
+          </div>
+        ))}
       </>
     )}
   />

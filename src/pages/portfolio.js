@@ -9,6 +9,7 @@ const PortfolioPage = () => (
     <h1>This is the portfolio!</h1>
     <p>Cool projects go here!</p>
     <Project />
+
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 );

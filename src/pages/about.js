@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 
 import Layout from '../components/layout';
@@ -11,7 +12,10 @@ const AboutPage = () => (
         to know more?
       </em>
     </p>
-    <p>Something goes here.</p>
+    <p>
+      I was born in Canada, but spent years living in America, Singapore, and
+      Japan.
+    </p>
   </Layout>
 );
 

@@ -7,7 +7,7 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`amy`, `kirasack`, `momentmuse`]} />
     <h1>moment muse</h1>
     <ul>
       <li>\ˈmō-mənt\ an indefinitely short period of time; instant</li>
@@ -16,7 +16,7 @@ const IndexPage = () => (
       </li>
     </ul>
     <div>
-      <h2>full stack developer, teacher, public speaker, writer</h2>
+      <h2>full stack developer, public speaker, writer, globetrotter</h2>
       <p>
         I'm Amy Kirasack, a full stack developer and content creator based in
         Barcelona, Spain. I've got a passion for building new experiences with

@@ -38,16 +38,16 @@ const Header = ({ siteTitle }) => (
       </h1>
       <ul>
         <li>
-          <Link to="/about/">About</Link>
+          <Link to="/about/">about</Link>
         </li>
         <li>
-          <Link to="/portfolio/">Portfolio</Link>
+          <Link to="/portfolio/">portfolio</Link>
         </li>
         <li>
-          <Link to="/contact/">Contact</Link>
+          <Link to="/contact/">contact</Link>
         </li>
         <li>
-          <Link to="/blog/">Blog</Link>
+          <Link to="/blog/">blog</Link>
         </li>
       </ul>
     </div>

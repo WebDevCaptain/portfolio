@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 
 const AboutPage = () => (
   <Layout>
-    <h1>About Me</h1>
+    <h1>Who is Moment Muse?</h1>
     <p>
       Lorem ipsum dolor amet meggings twee tumeric hot chicken live-edge, chia
       ramps biodiesel enamel pin kickstarter banh mi tbh. Yr poutine actually

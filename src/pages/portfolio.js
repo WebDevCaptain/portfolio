@@ -6,11 +6,8 @@ import Project from '../components/project';
 
 const PortfolioPage = () => (
   <Layout>
-    <h1>This is the portfolio!</h1>
-    <p>Cool projects go here!</p>
+    <h1>What I've been working on</h1>
     <Project />
-
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 );
 
